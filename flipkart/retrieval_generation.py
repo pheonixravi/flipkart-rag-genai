@@ -82,14 +82,14 @@ if __name__ == "__main__":
    answer= conversational_rag_chain.invoke(
     {"input": "can you tell me the best bluetooth buds?"},
     config={
-        "configurable": {"session_id": "dhruv"}
-    },  # constructs a key "abc123" in `store`.
+        "configurable": {"session_id": "vishravi"}
+    },  # constructs a key "scott123" in `store`.
 )["answer"]
    print(answer)
    answer1= conversational_rag_chain.invoke(
-    {"input": "what is my previous question?"},
+    {"input": "what was my previous question?"},
     config={
-        "configurable": {"session_id": "dhruv"}
-    },  # constructs a key "abc123" in `store`.
+        "configurable": {"session_id": "vishravi"}
+    },  # constructs a key "scott123" in `store`.
 )["answer"]
    print(answer1)
