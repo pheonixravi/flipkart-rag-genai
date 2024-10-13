@@ -76,8 +76,6 @@ def generation(vstore):
 )
     return conversational_rag_chain
 
-
-
 if __name__ == "__main__":
    vstore = data_ingestion("done")
    conversational_rag_chain = generation(vstore)
